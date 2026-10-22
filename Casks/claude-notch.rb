@@ -1,6 +1,3 @@
-# The Homebrew cask, for the tap at github.com/CraftStick/homebrew-tap (Casks/claude-notch.rb):
-# brew install craftstick/tap/claude-notch. Each release: the version and build, and the disk image's
-# sha256 (shasum -a 256 build/ClaudeNotch-<version>-<build>.dmg).
 cask "claude-notch" do
   version "0.1.7,22"
   sha256 "9396a8fc2aecb05d182d0d08a626fc387c229d579aefc976ce4df0d1cc550e0a"
