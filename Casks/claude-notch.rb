@@ -1,6 +1,6 @@
 cask "claude-notch" do
-  version "0.1.9,27"
-  sha256 "d96e777f51b7e0434f498f24c105706ec8a863ca7e08afa9bb40331b300ca57d"
+  version "0.2.0,28"
+  sha256 "82f230aa45f0bbd4026fe7e9025dda4a10faf91b28bead84b9ca1bc1237536d4"
 
   url "https://github.com/CraftStick/ClaudeNotch/releases/download/v#{version.csv.first}/ClaudeNotch-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Claude Notch"
@@ -28,6 +28,8 @@ cask "claude-notch" do
 
   zap trash: [
     "~/Library/Application Support/ClaudeNotch",
+    "~/Library/Caches/local.claudenotch",
+    "~/Library/HTTPStorages/local.claudenotch",
     "~/Library/Preferences/local.claudenotch.plist",
   ]
 
