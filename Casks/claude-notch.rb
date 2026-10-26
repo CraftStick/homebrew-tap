@@ -1,6 +1,6 @@
 cask "claude-notch" do
-  version "0.2.3,31"
-  sha256 "0e869d8451da301809c4342c12c8d78a7fd81323447c9e492927f02085e71c5d"
+  version "0.2.4,32"
+  sha256 "bab3c32cb125352545ba70ebe7d872a32491c83d2bf6c0ad4cf5b04e153e9162"
 
   url "https://github.com/CraftStick/ClaudeNotch/releases/download/v#{version.csv.first}/ClaudeNotch-#{version.csv.first}-#{version.csv.second}.dmg"
   name "Claude Notch"
